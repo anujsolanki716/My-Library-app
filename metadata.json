@@ -1,0 +1,5 @@
+{
+  "name": "Personal Book Collection Manager",
+  "description": "A web application to manage a personal book collection, allowing admins to add/update books and users to borrow/return them.",
+  "requestFramePermissions": []
+}
