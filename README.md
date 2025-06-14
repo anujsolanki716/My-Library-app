@@ -217,3 +217,21 @@ The backend exposes the following main API endpoints (base path: `/api`):
 *   **Image Uploads:** Allow admins to upload cover images directly instead of just URLs.
 
 ---
+## Screenshots
+
+### 🔒 Login Page
+![Alt text](<Screenshot 2025-06-14 125620.png>)
+
+### 🔒 Login Page
+![Alt text](<Screenshot 2025-06-14 125635.png>)
+
+### 📚 Home Page (User View)
+![Alt text](<Screenshot 2025-06-14 125713.png>)
+
+### 📚 Book Catalog (User View)
+![Alt text](<Screenshot 2025-06-14 125746.png>)
+![Alt text](<Screenshot 2025-06-14 125800.png>)
+
+### 🧑‍💼 Admin Dashboard
+![Alt text](<Screenshot 2025-06-14 125826.png>)
+![Alt text](<Screenshot 2025-06-14 125851.png>)
