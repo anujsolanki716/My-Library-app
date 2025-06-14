@@ -141,6 +141,10 @@ The frontend is set up to run directly from `index.html` using ES modules and a 
     npm install # If you have dev dependencies like live-server
     ```
 
+3.  **Start app:**
+    ```bash
+    npm run dev
+
 ## Running the Application
 
 ### Backend
@@ -151,7 +155,7 @@ The frontend is set up to run directly from `index.html` using ES modules and a 
     ```
 2.  **Start the backend server:**
     *   For production: `node server.js`
-    *   For development (with nodemon, auto-restarts on file changes): `npm run dev`
+    *   For development (with nodemon, auto-restarts on file changes): `node server.js`
 
     The backend server will typically run on `http://localhost:5001` (or the `PORT` specified in your `.env` file).
 
@@ -214,5 +218,5 @@ The backend exposes the following main API endpoints (base path: `/api`):
 
 ---
 
-This README provides a comprehensive guide to your Personal Book Collection Manager.
+This README provides a comprehensive guide to your Personal My Library Manager.
 Feel free to modify and expand it as your project evolves!
