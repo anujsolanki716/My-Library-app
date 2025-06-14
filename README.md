@@ -239,6 +239,9 @@ The backend exposes the following main API endpoints (base path: `/api`):
 ---
 ## 🎥 Demo Video
 
-[Click here to watch the demo video on Google Drive]([https://drive.google.com/file/d/FILE_ID/view?usp=sharing](https://drive.google.com/file/d/167PLKYhypNRdJEFqxbfUEGoQhQ_Pe2zv/view?usp=sharing&t=3))
+## 🎥 Demo Video
+
+[Click here to watch the demo video on Google Drive](https://drive.google.com/file/d/167PLKYhypNRdJEFqxbfUEGoQhQ_Pe2zv/view?usp=sharing)
+
 
 
