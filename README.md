@@ -235,3 +235,8 @@ The backend exposes the following main API endpoints (base path: `/api`):
 ### 🧑‍💼 Admin Dashboard
 ![Alt text](<Screenshot 2025-06-14 125826.png>)
 ![Alt text](<Screenshot 2025-06-14 125851.png>)
+
+---
+## 🎥 Demo Video
+
+<video src="Screen%20Recording%202025-06-14%20131615.mp4" controls title="Title"></video>
