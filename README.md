@@ -55,19 +55,12 @@ A full-stack web application designed to simulate a basic library management sys
 *   **TypeScript:** Superset of JavaScript that adds static typing.
 *   **React Router v7 (via esm.sh):** For client-side routing.
 *   **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
-*   **Heroicons:** SVG icons.
-*   **Fetch API:** For making HTTP requests to the backend.
-*   **ESM (via esm.sh for React Router):** Leveraging native ES modules in the browser for some dependencies.
 
 ### Backend
 
 *   **Node.js:** JavaScript runtime environment.
 *   **Express.js:** Web application framework for Node.js.
 *   **Mongoose:** MongoDB object modeling tool for Node.js.
-*   **JSON Web Tokens (JWT):** For secure user authentication.
-*   **bcryptjs:** For hashing passwords.
-*   **CORS:** For enabling Cross-Origin Resource Sharing.
-*   **dotenv:** For managing environment variables.
 
 ### Database
 
@@ -133,6 +126,11 @@ A full-stack web application designed to simulate a basic library management sys
     *   Replace `your_mongodb_connection_string` with your actual MongoDB connection URI.
     *   Replace `your_very_strong_jwt_secret` with a long, random, and secret string.
 
+4.  **Start server:**
+    ```bash
+    node server.js
+    ```
+
 ### Frontend Setup
 
 The frontend is set up to run directly from `index.html` using ES modules and a simple HTTP server. If you are using a development server like `live-server` or Vite for a better development experience:
@@ -142,7 +140,6 @@ The frontend is set up to run directly from `index.html` using ES modules and a 
     ```bash
     npm install # If you have dev dependencies like live-server
     ```
-    Otherwise, you can use `npx live-server` if you have Node.js installed.
 
 ## Running the Application
 
@@ -153,7 +150,7 @@ The frontend is set up to run directly from `index.html` using ES modules and a 
     cd server
     ```
 2.  **Start the backend server:**
-    *   For production: `npm start`
+    *   For production: `node server.js`
     *   For development (with nodemon, auto-restarts on file changes): `npm run dev`
 
     The backend server will typically run on `http://localhost:5001` (or the `PORT` specified in your `.env` file).
@@ -163,15 +160,10 @@ The frontend is set up to run directly from `index.html` using ES modules and a 
 1.  **Open `index.html` in your browser:**
     *   You can directly open the `index.html` file in your web browser.
     *   For a better experience with live reloading (and to avoid potential CORS issues if serving from `file:///`), use a simple HTTP server:
-        *   If you have `live-server` installed globally or as a dev dependency:
+        *   If you have `vite-server` installed globally or as a dev dependency:
             ```bash
-            npx live-server . # Run from the project root directory
+            npm run dev . # Run from the project root directory
             ```
-        *   Or use Python's built-in HTTP server (Python 3):
-            ```bash
-            python -m http.server 8000 # Or any other port
-            ```
-        Then open `http://localhost:8000` (or the port you chose) in your browser.
 
     The frontend will try to connect to the backend API at `http://localhost:5001/api` (as defined in `src/constants.ts`). Ensure this matches your backend's running port.
 
@@ -218,15 +210,12 @@ The backend exposes the following main API endpoints (base path: `/api`):
 ## Future Enhancements
 
 *   **Due Dates & Overdue Notifications:** Implement due dates for borrowed books and notify users.
-*   **Advanced Search/Filtering:** More sophisticated search options (e.g., by ISBN, publication year).
+*   **Search/Filtering:** More sophisticated search options (e.g., by ISBN, publication year).
 *   **Book Reviews & Ratings:** Allow users to rate and review books.
-*   **Password Reset Functionality:** Secure way for users to reset forgotten passwords.
 *   **User Profile Management:** Allow users to update their profile information.
 *   **Pagination:** For book lists and user lists to handle large datasets.
 *   **More Robust Error Handling:** Enhanced error display and logging.
 *   **Image Uploads:** Allow admins to upload cover images directly instead of just URLs.
-*   **Testing:** Implement unit and integration tests for frontend and backend.
-*   **Deployment:** Instructions and scripts for deploying to platforms like Heroku, Vercel, or AWS.
 
 ---
 
