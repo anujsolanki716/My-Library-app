@@ -238,5 +238,5 @@ The backend exposes the following main API endpoints (base path: `/api`):
 
 ---
 ## 🎥 Demo Video
-[![Watch Demo](https://yourdomain.com/path/to/thumbnail.png)]([https://drive.google.com/file/d/FILE_ID/view?usp=sharing](https://drive.google.com/file/d/167PLKYhypNRdJEFqxbfUEGoQhQ_Pe2zv/view?usp=sharing))
+[![Watch Demo]([https://yourdomain.com/path/to/thumbnail.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZYWvww0LagstJkYY8DBBiHUwVEzT0kx1qdQ&s))]([https://drive.google.com/file/d/FILE_ID/view?usp=sharing](https://drive.google.com/file/d/167PLKYhypNRdJEFqxbfUEGoQhQ_Pe2zv/view?usp=sharing))
 
