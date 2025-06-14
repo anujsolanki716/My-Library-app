@@ -238,5 +238,5 @@ The backend exposes the following main API endpoints (base path: `/api`):
 
 ---
 ## 🎥 Demo Video
+[![Watch Demo](https://yourdomain.com/path/to/thumbnail.png)]([https://drive.google.com/file/d/FILE_ID/view?usp=sharing](https://drive.google.com/file/d/167PLKYhypNRdJEFqxbfUEGoQhQ_Pe2zv/view?usp=sharing))
 
-<video src="Screen%20Recording%202025-06-14%20131615.mp4" controls title="Title"></video>
