@@ -171,11 +171,6 @@ The frontend is set up to run directly from `index.html` using ES modules and a 
 
 For initial setup or testing, a specific admin account can be created upon registration:
 
-*   **Email:** `anuj717@gmail.com`
-*   **Username (auto-assigned):** `anuj_solanki`
-*   **Password:** `Anuj@321` (or any password you set during registration with this email)
-*   **Role (auto-assigned):** `ADMIN`
-
 If this is the *very first user* to register in an empty database, they will also be assigned the `ADMIN` role. Subsequent non-special registrations default to `USER`.
 
 ## API Endpoints
