@@ -217,6 +217,3 @@ The backend exposes the following main API endpoints (base path: `/api`):
 *   **Image Uploads:** Allow admins to upload cover images directly instead of just URLs.
 
 ---
-
-This README provides a comprehensive guide to your Personal My Library Manager.
-Feel free to modify and expand it as your project evolves!
