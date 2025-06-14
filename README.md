@@ -2,6 +2,35 @@
 
 A full-stack web application designed to simulate a basic library management system. It allows users to manage a personal book collection, where administrators can add and update books, and users can borrow or return them. The application tracks book lending and availability status.
 
+---
+
+## 🎥 Demo Video
+Here’s a quick walkthrough of the Personal Book Collection Manager showcasing user login, browsing books, borrowing/returning functionality, and the admin dashboard for managing the library.
+
+[Click here to watch the demo video on Google Drive](https://drive.google.com/file/d/167PLKYhypNRdJEFqxbfUEGoQhQ_Pe2zv/view?usp=sharing)
+
+## Screenshots
+
+### 🔒 Login Page
+![Alt text](<Screenshot 2025-06-14 125620.png>)
+
+### 🔒 Login Page
+![Alt text](<Screenshot 2025-06-14 125635.png>)
+
+### 📚 Home Page (User View)
+![Alt text](<Screenshot 2025-06-14 125713.png>)
+
+### 📚 Book Catalog (User View)
+![Alt text](<Screenshot 2025-06-14 125746.png>)
+![Alt text](<Screenshot 2025-06-14 125800.png>)
+
+### 🧑‍💼 Admin Dashboard
+![Alt text](<Screenshot 2025-06-14 125826.png>)
+![Alt text](<Screenshot 2025-06-14 125851.png>)
+
+---
+
+
 ## Table of Contents
 
 1.  [Features](#features)
@@ -217,31 +246,8 @@ The backend exposes the following main API endpoints (base path: `/api`):
 *   **Image Uploads:** Allow admins to upload cover images directly instead of just URLs.
 
 ---
-## Screenshots
 
-### 🔒 Login Page
-![Alt text](<Screenshot 2025-06-14 125620.png>)
 
-### 🔒 Login Page
-![Alt text](<Screenshot 2025-06-14 125635.png>)
-
-### 📚 Home Page (User View)
-![Alt text](<Screenshot 2025-06-14 125713.png>)
-
-### 📚 Book Catalog (User View)
-![Alt text](<Screenshot 2025-06-14 125746.png>)
-![Alt text](<Screenshot 2025-06-14 125800.png>)
-
-### 🧑‍💼 Admin Dashboard
-![Alt text](<Screenshot 2025-06-14 125826.png>)
-![Alt text](<Screenshot 2025-06-14 125851.png>)
-
----
-## 🎥 Demo Video
-
-## 🎥 Demo Video
-
-[Click here to watch the demo video on Google Drive](https://drive.google.com/file/d/167PLKYhypNRdJEFqxbfUEGoQhQ_Pe2zv/view?usp=sharing)
 
 
 
