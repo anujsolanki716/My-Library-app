@@ -224,8 +224,6 @@ The backend exposes the following main API endpoints (base path: `/api`):
     *   `POST /:bookId/return`: Return a book (User).
 *   **Users (`/users`):**
     *   `GET /me/borrowed-books`: Get books currently borrowed by the logged-in user (User).
-*   **Admin (`/admin`):**
-    *   `GET /stats`: Get library statistics (Admin only).
 
 ## Environment Variables
 
