@@ -1,11 +1,11 @@
-# Personal Book Collection Manager
+# My Library Manager
 
 A full-stack web application designed to simulate a basic library management system. It allows users to manage a personal book collection, where administrators can add and update books, and users can borrow or return them. The application tracks book lending and availability status.
 
 ---
 
 ## 🎥 Demo Video
-Here’s a quick walkthrough of the Personal Book Collection Manager showcasing user login, browsing books, borrowing/returning functionality, and the admin dashboard for managing the library.
+Here’s a quick walkthrough of the My Library Manager showcasing user login, browsing books, borrowing/returning functionality, and the admin dashboard for managing the library.
 
 [Click here to watch the demo video on Google Drive](https://drive.google.com/file/d/167PLKYhypNRdJEFqxbfUEGoQhQ_Pe2zv/view?usp=sharing)
 
@@ -82,7 +82,6 @@ Here’s a quick walkthrough of the Personal Book Collection Manager showcasing 
 
 *   **React 19:** A JavaScript library for building user interfaces.
 *   **TypeScript:** Superset of JavaScript that adds static typing.
-*   **React Router v7 (via esm.sh):** For client-side routing.
 *   **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
 
 ### Backend
